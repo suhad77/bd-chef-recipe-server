@@ -1,0 +1,150 @@
+[
+    {
+        "_id": "645330dd6c6fa18dc1a9a2e7",
+        "id": 1,
+        "chefName": "Jamie Oliver",
+        "chefPicture": "https://i.ibb.co/vdZfFrR/Jamie-Oliver.jpg",
+        "bio": "Jamie Oliver is a British chef and restaurateur. He is known for his focus on healthy eating and has written numerous cookbooks and hosted a variety of cooking shows.",
+        "likes": 15000,
+        "numRecipes": 70,
+        "yearsExperience": 25,
+        "recipes": [
+            {
+                "recipeName": "Chicken and Mushroom Pie",
+                "ingredients": [
+                    "chicken breasts",
+                    "mushrooms",
+                    "onion",
+                    "flour",
+                    "butter",
+                    "milk"
+                ],
+                "cookingMethod": "1. Cook chicken breasts in a pan until golden. 2. Add sliced mushrooms and onion. 3. Make a roux with flour and butter. 4. Add milk and cook until thickened. 5. Add chicken and mushrooms to the sauce. 6. Fill a pie dish with the mixture and top with puff pastry. 7. Bake in the oven until golden brown.",
+                "rating": 4.9
+            },
+            {
+                "recipeName": "Vegetable Stir Fry",
+                "ingredients": [
+                    "broccoli",
+                    "carrots",
+                    "peppers",
+                    "onion",
+                    "soy sauce",
+                    "garlic"
+                ],
+                "cookingMethod": "1. Chop broccoli, carrots, peppers, and onion into bite-sized pieces. 2. Heat a wok or large pan over high heat. 3. Add garlic and stir fry the vegetables until tender. 4. Add soy sauce and cook for an additional minute.",
+                "rating": 4.3
+            }
+        ]
+    },
+    {
+        "_id": "645330dd4a3272b2b132633f",
+        "id": 2,
+        "chefName": "Nigella Lawson",
+        "chefPicture": "https://i.ibb.co/QK8XSLb/Nigella-Lawson.jpg",
+        "bio": "Nigella Lawson is a British food writer and television presenter. She has written numerous cookbooks and hosted several cooking shows. She is known for her indulgent recipes and focus on home cooking.",
+        "likes": 12000,
+        "numRecipes": 45,
+        "yearsExperience": 30,
+        "recipes": [
+            {
+                "recipeName": "Chocolate Cake",
+                "ingredients": [
+                    "flour",
+                    "sugar",
+                    "cocoa powder",
+                    "baking powder",
+                    "butter",
+                    "eggs"
+                ],
+                "cookingMethod": "1. Mix flour, sugar, cocoa powder, and baking powder in a bowl. 2. Add melted butter and eggs. 3. Mix until combined. 4. Pour the mixture into a greased cake tin. 5. Bake in the oven until cooked through. 6. Top with frosting of your choice.",
+                "rating": 4.7
+            },
+            {
+                "recipeName": "Spaghetti Carbonara",
+                "ingredients": [
+                    "spaghetti",
+                    "bacon",
+                    "garlic",
+                    "eggs",
+                    "parmesan cheese",
+                    "black pepper"
+                ],
+                "cookingMethod": "1. Cook spaghetti according to package directions. 2. Cook chopped bacon and garlic in a pan. 3. Beat eggs and parmesan cheese in a bowl. 4. Drain spaghetti and add to the pan with the bacon and garlic. 5. Add the egg and cheese mixture and stir until combined. 6. Serve with black pepper.",
+                "rating": 4.7
+            }
+        ]
+    },
+    {
+        "_id": "645330dd8d682f510336e6e9",
+        "id": 3,
+        "chefName": "Ina Garten",
+        "chefPicture": "https://i.ibb.co/K014tqK/Ina-Garten.jpg",
+        "bio": "Ina Garten is an American author and host of the Food Network program Barefoot Contessa. She is known for her simple yet elegant approach to cooking, often using fresh, seasonal ingredients.",
+        "likes": 8000,
+        "numRecipes": 30,
+        "yearsExperience": 40,
+        "recipes": [
+            {
+                "recipeName": "Lemon Roasted Chicken",
+                "ingredients": [
+                    "whole chicken",
+                    "lemons",
+                    "garlic",
+                    "thyme",
+                    "butter"
+                ],
+                "cookingMethod": "1. Season chicken with salt and pepper. 2. Stuff with lemon and garlic. 3. Roast in oven with thyme and butter. 4. Serve with roasted vegetables.",
+                "rating": 4.7
+            },
+            {
+                "recipeName": "Pasta with Pesto",
+                "ingredients": [
+                    "pasta",
+                    "basil",
+                    "garlic",
+                    "pine nuts",
+                    "parmesan cheese"
+                ],
+                "cookingMethod": "1. Cook pasta according to package directions. 2. Blend basil, garlic, and pine nuts in a food processor. 3. Add parmesan cheese and olive oil. 4. Toss with cooked pasta.",
+                "rating": 4.3
+            }
+        ]
+    },
+    {
+        "_id": "645330dd4d83da49891302d4",
+        "id": 4,
+        "chefName": "Gordon Ramsay",
+        "chefPicture": "https://i.ibb.co/nft46PN/Gordon-Ramsay.jpg",
+        "bio": "Gordon Ramsay is a British chef, restaurateur, and television personality. He has numerous Michelin stars and has hosted several cooking shows, including Hell's Kitchen and MasterChef.",
+        "likes": 20000,
+        "numRecipes": 100,
+        "yearsExperience": 35,
+        "recipes": [
+            {
+                "recipeName": "Beef Wellington",
+                "ingredients": [
+                    "beef tenderloin",
+                    "mushrooms",
+                    "prosciutto",
+                    "puff pastry",
+                    "egg"
+                ],
+                "cookingMethod": "1. Season the beef with salt and pepper and sear on all sides in a hot pan. 2. Spread a mixture of mushrooms, prosciutto, and herbs on a sheet of puff pastry. 3. Place the seared beef on top and wrap the pastry around it. 4. Brush with beaten egg and bake in the oven until the pastry is golden brown.",
+                "rating": 4.8
+            },
+            {
+                "recipeName": "Scrambled Eggs",
+                "ingredients": [
+                    "eggs",
+                    "butter",
+                    "salt",
+                    "pepper",
+                    "chives"
+                ],
+                "cookingMethod": "1. Beat eggs with salt and pepper in a bowl. 2. Heat butter in a non-stick pan over low heat. 3. Add the eggs and stir constantly with a spatula. 4. Add chopped chives and continue stirring until the eggs are creamy and cooked to your liking.",
+                "rating": 4.5
+            }
+        ]
+    }
+]
