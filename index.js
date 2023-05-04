@@ -11,6 +11,12 @@ app.get('/categories', (req, res)=>{
     res.send(categories);
 })
 
+app.get('/categories/:id', (req, res)=>{
+    const id = req.params.id;
+    const selectChef = categories.find(c=>c._id === id);
+    res.send(selectChef);
+})
+
 app.get('/', (req, res) => {
     res.send('Hello World!')
   })
