@@ -6,19 +6,25 @@ const port = process.env.PORT || 5000;
 app.use(cors())
 
 const categories = require('./data/categories.json');
+const food = require('./data/food.json');
 
 app.get('/categories', (req, res)=>{
     res.send(categories);
 })
 
-app.get('/categories/:id', (req, res)=>{
-    const id = req.params.id;
-    const selectChef = categories.find(c=>c._id === id);
-    res.send(selectChef);
+app.get('/food', (req, res)=>{
+  res.send(food);
+})
+
+app.get('/categories/:id', (req, res) => {
+  const id = req.params.id;
+  const selectedchef = categories.find(n => n._id === id);
+  res.send(selectedchef)
+  console.log(id);
 })
 
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+    res.send('Hello Express ..!')
   })
   
   app.listen(port, () => {
